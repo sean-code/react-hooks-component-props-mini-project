@@ -7,7 +7,7 @@ export default function ArticleList(props){
           return(<Article title={post.title} 
                   date={post.date} 
                   preview={post.preview}
-                  key={post.id}/>
+                  key={post.id} />
                   )
               })}
       </main>
